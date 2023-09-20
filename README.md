@@ -31,7 +31,7 @@ Easily manage your companies' productivity:
 - Work Life Balance tracking
 
 
-## XCLS Sheets ##
+## XLSX Sheets ##
 
 We understand that there are too many apps out there,
 that's why we built CRAM to work in the background.

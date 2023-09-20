@@ -66,6 +66,17 @@ class RunCRAM:
 
     def save_that(self, result):
         try:
+            # Create or load an Excel workbook
+            self.workbook = openpyxl.Workbook()
+            self.sheet = self.workbook.active
+
+            # Write headers
+            self.sheet['A1'] = "Title"
+            self.sheet['B1'] = "Date"
+            self.sheet['C1'] = "ID"
+            self.sheet['D1'] = "People"
+            self.sheet['E1'] = "Transcripts"
+
             # Update XCEL 'MAIN' Sheet
             data_ = result['data']['transcripts']
             print(data_[0])
@@ -78,6 +89,9 @@ class RunCRAM:
                 self.sheet[f'D{val+2}']  =  dat["participants"]
                 self.sheet[f'E{val+2}']  =  str(dat["transcript_url"])   
                 self.sheet[f'F{val+2}']  =  str(dat["duration"])
+
+            # Save the workbook to a file
+            self.workbook.save(f'{datetime.now()}.xlsx')
 
             print("DATA_SAVED")
         except Exception as e:
@@ -95,23 +109,10 @@ class RunCRAM:
         #print(result)
         #print(result['data'])
 
-        # Create or load an Excel workbook
-        workbook = openpyxl.Workbook()
-        self.sheet = workbook.active
-
-        # Write headers
-        self.sheet['A1'] = "Title"
-        self.sheet['B1'] = "Date"
-        self.sheet['C1'] = "ID"
-        self.sheet['D1'] = "People"
-        self.sheet['E1'] = "Transcripts"
 
         self.save_that(result)
 
-        date_struct = datetime.now()
 
-        # Save the workbook to a file
-        workbook.save(f'{date_struct}.xlsx')
 
 if __name__ == "__main__":
     CRAM = RunCRAM()
