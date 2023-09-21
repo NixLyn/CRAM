@@ -14,21 +14,6 @@ Tier One
 
 ```
 
-``` 
-Tier Two
-- Crygma Encrypted Package
-- Background Deployed Processing
-
-```
-
-``` 
-Tier Three (Enterprise)
-- Crygma Encrypted Package
-- WebApp Accessable Deployed Processing
-- Admin/Configuration Controlled interface 
-
-```
-
 
 # Overview #
 
@@ -101,10 +86,6 @@ and automatically email the generated reports to the relevant people.
     <p>
     Fireflies.ai 
     </p>
-<h4>Cyber Security & Encryption</h4>
-    <p>
-    Crygma Encryption System
-    </p>
 <h4>A.I. Integration</h4>
     <p>
     Azure deployable A.I. 
@@ -113,13 +94,12 @@ and automatically email the generated reports to the relevant people.
     </p>
 <h4>Background Automation API</h4>
     <h6>FrameWork</h6>
-    <p>
-    Reacts/NodeJS or Python API
-    </p>
     <h6>Cloud Deployment Service</h6>
     <p>
-    Azure AWS Linux Server 
+    Azure AWS Linux Server : Quart-API
     </p>
+<h4>Authentication System</h4>
+    <h6>UserName + Password Login System</h6>
 
 
 <h2>Brief Overview of System Integration</h2>

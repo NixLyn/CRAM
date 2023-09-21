@@ -3,6 +3,8 @@ import json
 import openpyxl
 import datetime
 from datetime import datetime
+import openai
+
 
 class GraphQLClient:
     def __init__(self, url, token):
@@ -24,15 +26,6 @@ class Collections:
         self.time_doc = ""
 
 
-
-
-
-class RunCRAM:
-    def __init__(self):
-        self.participants = []
-        self.reps_ = []
-        self.meets = []
-        self.time_sheets = []
 
 
     def collect_time_sheet(self, user_):
@@ -61,6 +54,15 @@ class RunCRAM:
             print(e)
             return e
 
+
+
+
+class RunCRAM:
+    def __init__(self):
+        self.participants = []
+        self.reps_ = []
+        self.meets = []
+        self.time_sheets = []
 
 
 
