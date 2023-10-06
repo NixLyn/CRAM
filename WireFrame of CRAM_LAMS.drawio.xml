@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T04:53:05.246Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="GpKvTq6OazferpvkHs9A" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T05:47:29.961Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="wcGhu98ECjSVHXB6LJKe" version="22.0.3" type="github">
   <diagram name="Page-1" id="03018318-947c-dd8e-b7a3-06fadd420f32">
-    <mxGraphModel dx="4440" dy="2573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2933" dy="2460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-73" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;OverView of Tasking&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=50;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="-850" width="4400" height="850" as="geometry" />
+        </mxCell>
         <mxCell id="t8sGckvawEGkfB4Dhyxy-10" value="Technical Tasking" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2240" y="-800" width="1000" height="760" as="geometry" />
         </mxCell>
@@ -2848,6 +2851,131 @@
         </mxCell>
         <mxCell id="t8sGckvawEGkfB4Dhyxy-102" value="" style="triangle;html=1;whiteSpace=wrap;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="t8sGckvawEGkfB4Dhyxy-101" vertex="1">
           <mxGeometry x="20" y="20" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-1" value="Technical Tasking" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="880" width="1000" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-2" value="Team Memebers" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-1">
+          <mxGeometry x="40" y="80" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-3" value="Front-End Dev" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-2">
+          <mxGeometry x="40" y="41" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-4" value="Back-End Dev" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-2">
+          <mxGeometry x="40" y="120" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-5" value="Full-Stack DevOp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-2">
+          <mxGeometry x="40" y="280" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-6" value="Database Admin (DBA)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-2">
+          <mxGeometry x="40" y="200" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UzTZyGv3-7f-WnK5x3iC-1" source="UzTZyGv3-7f-WnK5x3iC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.9999999999995" y="140.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-8" value="Dynamic UIX&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-1">
+          <mxGeometry x="340" y="121" width="140" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UzTZyGv3-7f-WnK5x3iC-1" source="UzTZyGv3-7f-WnK5x3iC-3" target="UzTZyGv3-7f-WnK5x3iC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-29" value="DevOps : Technical Tasking" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="3360" y="-805" width="1000" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-40" value="Configure version control and continuous integration tools (e.g., Git, Jenkins)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-29">
+          <mxGeometry x="40" y="165.75" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-41" value="Ensure scalability and high availability of the system." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-29">
+          <mxGeometry x="40" y="245" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-42" value="Implement monitoring and alerting solutions." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-29">
+          <mxGeometry x="40" y="325" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-43" value="Manage deployment and rollback processes." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-29">
+          <mxGeometry x="40" y="405" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-44" value="Automate server provisioning and management." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-29">
+          <mxGeometry x="40" y="485" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-39" value="Set up the development, staging, and production environments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3401" y="-719" width="479" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-45" value="DBA : Technical Tasking" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="4440" y="-800" width="1000" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-46" value="Design the database schema for leads and customer data." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-45">
+          <mxGeometry x="40" y="160.75" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-47" value="Optimize database performance and indexing." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-45">
+          <mxGeometry x="40" y="240" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-48" value="Ensure data security and compliance." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-45">
+          <mxGeometry x="40" y="320" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-49" value="Set up regular backups and disaster recovery plans." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-45">
+          <mxGeometry x="40" y="400" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-50" value="Automate server provisioning and management." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-45">
+          <mxGeometry x="40" y="480" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-52" value="Monitor database performance and troubleshoot issues." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-45">
+          <mxGeometry x="40" y="562" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-53" value="Collaborate with the development team for data integration." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-45">
+          <mxGeometry x="40" y="645" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-51" value="Choose an appropriate database system (e.g., MySQL, PostgreSQL, MongoDB)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4481" y="-719" width="479" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-54" value="Back-End : Technical Tasking" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#E3C800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="5559" y="-800" width="1000" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-55" value="Develop the backend application using a suitable framework (e.g., Node.js, Django, Ruby on Rails)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-54">
+          <mxGeometry x="40" y="80.75" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-56" value="Implement user authentication and authorization logic." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-54">
+          <mxGeometry x="40" y="160" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-57" value="Design and create APIs for data retrieval and manipulation." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-54">
+          <mxGeometry x="40" y="240" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-58" value="Integrate with external APIs, including Google Search Engine API for data scraping." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-54">
+          <mxGeometry x="40" y="320" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-59" value="Implement data storage and management (database schema, CRUD operations)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-54">
+          <mxGeometry x="40" y="400" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-60" value="Set up server-side validation and error handling." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-54">
+          <mxGeometry x="40" y="482" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-61" value="Implement AI-driven text suggestion functionality." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-54">
+          <mxGeometry x="40" y="565" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-62" value="Back-End : Technical Tasking" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="6640" y="-798.5" width="1000" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-63" value="Design the user interface (UI) for the LMS and CRM." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-62">
+          <mxGeometry x="40" y="80.75" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-64" value="Implement user authentication and authorization logic." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-62">
+          <mxGeometry x="40" y="160" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-65" value="Create responsive and user-friendly web pages." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-62">
+          <mxGeometry x="40" y="240" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-67" value="Develop interactive dashboards for both admin and sales reps." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-62">
+          <mxGeometry x="40" y="318.5" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-68" value="Integrate data visualization components." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-62">
+          <mxGeometry x="40" y="398.5" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-69" value="Ensure cross-browser compatibility and mobile responsiveness." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-62">
+          <mxGeometry x="40" y="478.5" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzTZyGv3-7f-WnK5x3iC-70" value="Implement UI for AI-driven text suggestions." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UzTZyGv3-7f-WnK5x3iC-62">
+          <mxGeometry x="40" y="558.5" width="480" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
